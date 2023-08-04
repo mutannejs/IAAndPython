@@ -10,7 +10,7 @@ Ambos da [Didática Tech](https://didatica.tech/)
 
 ## Notebooks
 
-Notebooks criados no Jupyter Notebook:
+Notebooks criados usando Jupyter Notebook:
 
 ## Dicas
 
@@ -18,8 +18,23 @@ Notebooks criados no Jupyter Notebook:
 
 O arquivo foi baixado na plataforma Kaggle:
 
-[athlete_events.csv](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
+[120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 ### Instalar Jupyter Notebook
 
 ### Ícone área de trabalho
+
+Para facilitar o uso da ferramenta, foi criado um ícone na área de
+ trabalho para iniciá-la já na pasta que possui os notebooks. Para isso
+ foi copiado o arquivo /usr/local/share/applications/jupyter-notebook.desktop
+ para o diretório ~/Desktop.
+
+```
+cp /usr/local/share/applications/jupyter-notebook.desktop ~/Desktop/
+```
+
+Dentro do arquivo foi adicionada a linha:
+
+> Path=/home/murillo/Notebooks
+
+Após `Path=` coloque o caminho da pasta com os seus notebooks.
