@@ -1,0 +1,31 @@
+<RootWidget>:
+
+    orientation: 'vertical'
+    padding: 20
+    spacing: 20
+    sms:imput_sms
+    classificacao:imput_classificacao
+
+    Label:
+        font_size: 32
+        text_size: self.size
+        text: 'Classificador de spam'
+
+    Label:
+        font_size: 16
+        text_size: self.size
+        text: 'Copie o sms recebido na caixa a baixo:'
+
+    TextInput:
+        id: imput_sms
+        multline: False
+
+    Button:
+        text: 'CLASSIFICAR'
+        on_release: root.prever()
+
+    Label:
+        font_size: 28
+        text_size: self.size
+        haling: 'center'
+        id: imput_classificacao

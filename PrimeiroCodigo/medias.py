@@ -1,1 +1,0 @@
-def media x, y :

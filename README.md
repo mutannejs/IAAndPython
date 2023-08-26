@@ -12,6 +12,10 @@ Ambos da [Didática Tech](https://didatica.tech/)
 
 Notebooks criados usando Jupyter Notebook:
 
+**python_basico** : aprendemos a implementar o básico de programação utilizando python. Aprendemos comandos de decisão, de repetição, de entrada e saída (formatada), como criar funções, etc.
+
+**python_classes** : aprendemos a criar e usar classes, bem como criar métodos, atributos e a utilizar herança.
+
 ## Dicas
 
 ### dataset usado nos exemplos
